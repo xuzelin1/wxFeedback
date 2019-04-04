@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3a96ff",
+    "navigationBarTitleText": "意见反馈",
+    "navigationBarTextStyle":"white"
+  }
+}

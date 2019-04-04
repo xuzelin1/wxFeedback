@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view>
+  <form>
+    <view>
+      <view class='radio-view'>
+        <radio-group class="radio-group">
+          <view class="attr_value" wx:for="{{radios}}" wx:key="{{item.name}}">
+            <radio color='' checked='{{item.checked}}' data-index='{{index}}' bindtap='radioChange'></radio>
+            <label class='radio_label'>{{item.value}}</label>
+          </view>
+        </radio-group>
+      </view>
+      <textarea class='' placeholder='写下你的宝贵意见吧~'></textarea>
+    </view>
+    <button class='submit-btn' form-type='submit'>提交意见</button>
+  </form>
+</view>
